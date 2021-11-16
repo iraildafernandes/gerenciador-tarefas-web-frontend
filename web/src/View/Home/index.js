@@ -1,8 +1,14 @@
-
+import React from 'react';
+import * as Styled from './styles';
+import Header from '../../Components/Header'
 
 function Home() {
-  return <h1> Você está na primeira página.</h1>
-
+  return (
+    <Styled.Container>
+      <Header />
+    </Styled.Container>
+  )
 }
 
+// Responsável por exportar a função para as outras áreas do cóigo.
 export default Home;
